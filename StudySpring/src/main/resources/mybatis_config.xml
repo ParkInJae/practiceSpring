@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0/EN" 
+				"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+	<!-- 별칭을 사용하여 간결하게 표시함 -->
+	<!-- 항상 VO먼저 생성 후 별칭을 표시함 -->
+		<typeAlias type="edu.study.vo.UserVO" alias="userVO"/>
+		<typeAlias type="edu.study.vo.NoticeVO" alias="noticeVO"/>
+		<typeAlias type="edu.study.vo.SearchVO" alias="searchVO"/>
+	</typeAliases>
+</configuration>
